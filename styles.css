@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: #3c8ed5;
+    height: 75px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    color: white;
+    background-color: #3c8ed5;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left{
+    margin-right: auto;
+}
+
+#subject{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 550;
+    padding: 20px;
+}
+
+.from{
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    background-color: rgb(49, 182, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.akshay{
+    width: 150px;
+    display: inline-block;
+}
+
+.name{
+    color:#1983df ;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.email{
+    word-wrap: break-word;
+    white-space: normal;
+    color: rgb(94, 92, 92);
+}
+
+.address .more{
+    fill: #777474; /* Light grey color */
+    margin-right: 40px;
+    margin-left: auto;
+
+}
+
+.auth{
+    display: flex;
+    margin-left: 45px;
+    align-items: center;
+}
+
+.auth .name{
+    font-size: 16px;
+    margin: 5px;
+}
+
+.cat{
+    margin-right: 10px;
+}
+
+.time{
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.email-body{
+    margin: 20px;
+}
