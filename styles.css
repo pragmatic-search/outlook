@@ -61,6 +61,7 @@ body{
     color:#1983df ;
     font-weight: bold;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 .email{
@@ -98,4 +99,19 @@ body{
 
 .email-body{
     margin: 20px;
+}
+
+.line{
+    height: 1px;
+    background-color: #efeded;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.seperation{
+    height: 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+.warden{
+    background-color: rgb(165, 165, 165);
 }
